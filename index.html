@@ -1,1 +1,77 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Artedo IT Solutions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Including Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Artedo IT</a>
+  </nav>
+
+  <!-- Jumbotron / Hero Section -->
+  <header class="jumbotron text-center mb-0">
+    <h1>Artedo IT Solutions</h1>
+    <p class="lead">We provide a complete range of remote monitoring and IT infrastructure support services.</p>
+    <a href="#services" class="btn btn-primary">Our Services</a>
+  </header>
+
+  <!-- Services Section -->
+  <section id="services" class="py-5 bg-light">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Remote Monitoring</h3>
+          <p>We keep an eye on your servers and workstations, proactively preventing issues and quickly responding to any problems.</p>
+        </div>
+        <div class="col-md-4">
+          <h3>24/7 Support</h3>
+          <p>We are available around the clock for technical consultations and urgent assistance.</p>
+        </div>
+        <div class="col-md-4">
+          <h3>Security</h3>
+          <p>We set up backups and intrusion protection, helping you comply with information security standards.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Send us an email at <a href="mailto:artedo@int.pl">artedo@int.pl</a> or fill out the form below.</p>
+      <!-- Example with Formspree -->
+      <form action="https://formspree.io/f/mnnjkngq" method="POST">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" class="form-control" id="email" name="_replyto" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="4" name="message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center p-3">
+    © 2025 Artedo IT Solutions
+  </footer>
+
+  <!-- Bootstrap JS (optional) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
