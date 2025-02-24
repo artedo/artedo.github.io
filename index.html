@@ -48,7 +48,10 @@
       <p>Send us an email at <a href="mailto:artedo@int.pl">artedo@int.pl</a> or fill out the form below.</p>
       <!-- Example with Formspree -->
       <form action="https://formspree.io/f/mnnjkngq" method="POST">
-        <div class="form-group">
+      <!-- Honeypot Field -->
+      <input type="text" name="_gotcha" style="display: none;">
+
+      <div class="form-group">
           <label for="name">Name</label>
           <input type="text" class="form-control" id="name" name="name" required>
         </div>
